@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HUAWEI Store</title>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSay9C3accNivyt4Mj6bNSCmV3Ugx8pwWH43A&s" type="image/png">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Roboto, sans-serif;
+      background: #f5f6f7;
+      color: #222;
+    }
+
+    /* Barra superior */
+    header {
+      background: linear-gradient(90deg, #1428a0, #0072ff);
+      color: white;
+      padding: 20px;
+      font-size: 1.8rem;
+      font-weight: bold;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    /* Grid de productos */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      padding: 40px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.25);
+    }
+
+    .card img {
+      width: 180px;
+      height: auto;
+      margin-bottom: 15px;
+      border-radius: 12px;
+    }
+
+    .card h3 {
+      margin: 10px 0;
+      font-size: 1.4rem;
+    }
+
+    .card p {
+      font-size: 1rem;
+      margin-bottom: 15px;
+    }
+
+    .price {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #1428a0;
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: linear-gradient(90deg, #0072ff, #00c6ff);
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .btn:hover {
+      background: linear-gradient(90deg, #0052cc, #0072ff);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>HUAWEI Store</header>
+
+  <section class="grid">
+    <div class="card">
+      <img src="https://shop-cdncname.huawei.com/mx/uomcdn/MXHW/pms/202506/gbom/6942103165405/group/800_800_2896FAA48D7CE3DB9321271ED5341CF6.png" alt="Huawei Store Images">
+      <h3>HUAWEI Pura80 Ultra</h3>
+      <p>Toma fotos mas vivas y con calidad 4k y nuestro interfaz unico.</p>
+      <div class="price">$31,999.00 MXN</div>
+      <a href="https://consumer.huawei.com/mx/offer/telefonos/pura-80-series-buy/" class="btn">Comprar</a>
+    </div>
+
+    <div class="card">
+      <img src="https://shop-cdncname.huawei.com/mx/uomcdn/MXHW/pms/202507/gbom/6942103163487/800_800_63117BEC48909B524864DBFD196BC4A8mp.png" alt="HUAWEI MatePad 11.5 2025">
+      <h3>HUAWEI MatePad 2025</h3>
+      <p>Sumérgete en la pantalla HUAWEI FullView Display6 de 2.5K,3 120 Hz y 11.5 pulgadas.</p>
+      <div class="price">$3,599.00 MXN</div>
+      <a href="https://consumer.huawei.com/mx/offer/tablets/matepad-11-5-2025-buy/" class="btn">Comprar</a>
+    </div>
+
+    <div class="card">
+      <img src="https://shop-cdncname.huawei.com/mx/uomcdn/MXHW/pms/202505/gbom/6942103154669/800_800_085D754798CCD913B60BCE7BBF7AEC95mp.png" alt="HUAWEI FreeBuds 6">
+      <h3></h3>
+      <p>
+Abre una nueva era de estilo y sustancia con el HUAWEI WATCH 5, diseñado para el futuro pero adaptado al presente.</p>
+      <div class="price">$6,999.00 MXN</div>
+      <a href="https://consumer.huawei.com/mx/offer/wearables/watch-5-buy/" class="btn">Comprar</a>
+    </div>
+
+    <div class="card">
+      <img src="https://shop-cdncname.huawei.com/mx/uomcdn/MXHW/pms/202504/gbom/6942103147746/800_800_48A952D53AABBCC6F4A9480577F0C5BFmp.png" alt="HUAWEI FreeBuds 6">
+      <h3>HUAWEI FreeBuds 6</h3>
+      <p>Los HUAWEI FreeBuds 6 son 12% más pequeños y 9% más ligeros.</p>
+      <div class="price">$2,999.00 MXN</div>
+      <a href="https://consumer.huawei.com/mx/offer/audio/freebuds6-buy/" class="btn">Comprar</a>
+    </div>
+  </section>
+</body>
+</html>
